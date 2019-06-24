@@ -194,7 +194,8 @@ int main(int argc, char const *argv[])
 		}
 	}
 
-	std::string date_time = currentDateTime();
+// 	std::string date_time = currentDateTime();
+	std::string date_time = “”;
 	std::string file_name = date_time + ".ppm";
   
 	// Save the image data to file
